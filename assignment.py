@@ -10,6 +10,13 @@ def title():
     # Author: Copper
     # Modified:
     # title
+    print("========================")
+    print("========================")
+    print("Welcome to the Calculator")
+    print("========================")
+    print("========================")
+    e=input("Press The Enter Key to Begin")
+
     return None
 
 def instructions():
@@ -18,7 +25,9 @@ def instructions():
     # output parameters: None
     # Author:
     # Modified:
-    return None
+    print("choose any shape from this category: Triangle, Rectangle, Circle, Square")
+    a=input(">>>")
+    pass
 
 def getParams(shape):
     # Will create a list of questions to be asked depending on the shape.
